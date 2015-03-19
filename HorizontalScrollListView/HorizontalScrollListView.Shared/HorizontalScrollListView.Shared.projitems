@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d2b11889-2ad7-4412-a3b1-4f839ab72278</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>HorizontalScrollListView</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\House.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House01.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House02.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House03.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House04.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House05.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House06.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House07.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House08.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\House09.png" />
+  </ItemGroup>
+</Project>
